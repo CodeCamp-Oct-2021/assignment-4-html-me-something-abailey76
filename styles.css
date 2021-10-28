@@ -5,6 +5,13 @@ body {
     margin-left: 8px;
 	background-color: #999;
 	font-size: 62.5%;
+	display: block
+}
+
+mainHeading {
+	text-align: center;
+	color:red;
+	font-size: 1.6em;
 }
 
 header,
@@ -98,7 +105,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-	width: 75%;
+	width: 60%;
 	max-width: 75%;
 }
 
@@ -111,4 +118,13 @@ img {
 	body {
 		font-size: 50%;
 	}
+}
+
+#funParagraph {
+	/* padding: 1.25em; */
+    text-align: center;
+    /* margin-right: 80px;
+    margin-left: 80px; */
+    font-size: x-large;
+	color:green
 }
