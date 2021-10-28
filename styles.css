@@ -62,8 +62,10 @@ p {
 }
 
 #funParagraph {
-	color:green;
+		color:green;
+		
 }
+
 
 figure {
 	margin: 0;
