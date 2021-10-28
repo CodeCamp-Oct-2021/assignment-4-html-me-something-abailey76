@@ -1,17 +1,9 @@
 body {
 	width: 100%;
 	max-width: 1024px;
-	margin-right: 8px;
-    margin-left: 8px;
+	margin: 0 auto;
 	background-color: #999;
 	font-size: 62.5%;
-	display: block
-}
-
-mainHeading {
-	text-align: center;
-	color:red;
-	font-size: 1.6em;
 }
 
 header,
@@ -29,25 +21,17 @@ header h1 {
 	text-align: center;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
 	margin: 0;
-    text-align: center;
-}
-
-h6 {
-    margin: 0;
-    text-align: center;
 }
 
 h1 {
 	font-size: 2.5em;
-    text-align: center;
-
+	color:red
 }
 
 main h2 {
 	padding: 0.625em 0 0.625em 0.625em;
-    text-align: center;
 }
 
 section {
@@ -75,10 +59,10 @@ nav ul li {
 
 p {
 	padding: 1.25em;
-    text-align: center;
-    margin-right: 80px;
-    margin-left: 80px;
-    font-size: x-large;
+}
+
+#funParagraph {
+	color:green;
 }
 
 figure {
@@ -97,14 +81,10 @@ footer {
 }
 
 footer p {
-    text-align: center;
 	display: inline-block;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 	width: 60%;
 	max-width: 75%;
 }
@@ -118,13 +98,4 @@ img {
 	body {
 		font-size: 50%;
 	}
-}
-
-#funParagraph {
-	/* padding: 1.25em; */
-    text-align: center;
-    /* margin-right: 80px;
-    margin-left: 80px; */
-    font-size: x-large;
-	color:green
 }
