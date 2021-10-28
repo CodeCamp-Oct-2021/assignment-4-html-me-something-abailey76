@@ -1,7 +1,7 @@
 body {
 	width: 100%;
 	max-width: 1024px;
-	margin: 0 auto;
+	margin: 8px;
 	background-color: #999;
 	font-size: 62.5%;
 }
@@ -63,6 +63,8 @@ nav ul li {
 p {
 	padding: 1.25em;
     text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 figure {
