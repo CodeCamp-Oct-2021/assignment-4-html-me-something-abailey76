@@ -95,8 +95,12 @@ footer p {
 }
 
 img {
-	width: 60%;
+	width: 50%;
 	max-width: 75%;
+}
+
+.c_and_h {
+	width: 12.5%
 }
 
 @media screen and (max-width: 680px) {
